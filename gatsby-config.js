@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `崔 熙尹`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Teal Choi`,
+      summary: `who lives and works in Seoul building creative things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `teal_choi`,
     },
   },
   plugins: [
@@ -54,6 +54,7 @@ module.exports = {
           },
           `gatsby-remark-prismjs`,
         ],
+        excerpt_separator: `<!--more-->`,
       },
     },
     `gatsby-transformer-sharp`,

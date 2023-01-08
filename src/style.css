@@ -1,4 +1,5 @@
 /* CSS Custom Properties Definitions */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
 
 :root {
   --maxWidth-none: "none";
@@ -27,18 +28,18 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "MontserratVariable", system-ui, -apple-system,
+  --fontFamily-sans: "Pretendard Variable", Pretendard, system-ui, -apple-system,
     BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
     "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
-  --fontWeight-bold: 700;
-  --fontWeight-black: 900;
-  --fontSize-root: 16px;
+  --fontWeight-bold: 500;
+  --fontWeight-black: 600;
+  --fontSize-root: 13px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
@@ -52,12 +53,18 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
-  --color-accent: #d1dce5;
+  /*--color-primary: #005b99;*/
+  /*--color-text: #2e353f;*/
+  /*--color-text-light: #4f5969;*/
+  /*--color-heading: #1a202c;*/
+  /*--color-heading-black: black;*/
+  /*--color-accent: #d1dce5;*/
+  --color-primary: #eeeeee;
+  --color-text: #eeeeee;
+  --color-text-light: #c5d4ea;
+  --color-heading: #eeeeee;
+  --color-heading-black: #e8e5e5;
+  --color-accent: #98989f;
 }
 
 /* HTML elements */
@@ -73,6 +80,7 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #111111;
 }
 
 body {
@@ -254,6 +262,7 @@ a:focus {
 
 .main-heading {
   font-size: var(--fontSize-7);
+  font-weight: var(  --fontWeight-normal);
   margin: 0;
 }
 
